@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+           
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:white;
+        }
+        .main{
+            width: 50%;
+            background-image: url(./sea3.jpg);
+        }
+        ul{
+            list-style-type: none;
+            padding-inline-start: 0px;
+            margin: 0;
+        }
+        .list{
+            display: flex;
+        }
+        select{
+            width: 100%;
+        }
+        .inputs >input{
+            width: 49.6%;
+        }
+        form > input{
+            width: 100%;
+        }
+        .inputs2 > input{
+            width: 32.8%;
+        }       
+        p{
+            text-align: center;
+            border-top: 3pt solid #ccc;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="main">
+        <h3>Contact form</h3>
+        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa qui possimus totam assumenda enim voluptas, amet, molestias quas beatae ab ut officia commodi quidem</h6>
+        <div class="list">
+            <div>
+                <ul>
+                <li>Your name</li>
+                <li>Your email</li>
+                <li>Phone *</li>
+                <li>Massage subject *</li>
+                <li>Massage *</li>
+            </ul>
+            </div>
+            <div class="list2">
+            <form action="#" method="get">
+                <div class="inputs">
+                <input type="text"  name="text11" placeholder="first name">
+                <input type="text" name="text12" placeholder="last name">
+                </div>
+                
+                <input type="text" name="text1" placeholder="your_mail@mail.come">
+                <div class="inputs2">
+                    <input type="text" name="text1" placeholder="000">
+                    <input type="text" name="text2" placeholder="000">
+                    <input type="text" name="text3" placeholder="000">
+                </div>
+                <div>
+                    <select name="select1" size="1">
+                        <option value="value1">Other</option>
+                        <option value="value2">Other2</option>
+                       </select>
+                </div>
+                <div>
+                    <textarea name="area"  cols="80" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+        </div>
+        <p>SUBMIT FORM</p>
+    </div>
+</body>
+</html>

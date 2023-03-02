@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:gray;
+    }
+    .list{
+        display: flex;
+    }
+    .main{
+        background-color:aqua;
+        width: 65%;
+    }
+    input{
+        background-color:aqua;
+    }
+    h1{
+        background-color:rgb(214, 122, 51);
+        color:aliceblue;
+    }
+   </style>
+<body>
+    <div class="main">
+        <h1>CREDIT CARD DETAILS</h1>
+        <div>
+            <p>Card Number</p>
+            <form action="#" method="get">
+                <input type="text"  name="number" placeholder="1234 5678 9012 3456">
+            </form>
+            <p>Name On Card</p>
+            <form action="#" method="get">
+                <input type="text"  name="name" placeholder="Name Surname">
+            </form>
+            <div class="list">
+                <div>
+                    <p>Expiry Date</p>
+                    <form action="#" method="get">
+                        <input type="text"  name="expiry" placeholder="02">
+                    </form>
+                </div>
+                <div>
+                    <p>Year</p>
+                    <form action="#" method="get">
+                        <input type="text"  name="2017" placeholder="2017">
+                    </form>
+                </div>
+                <div>
+                    <p>CVV / CVN</p>
+                    <form action="#" method="get">
+                        <input type="text"  name="CVV" placeholder="***">
+                    </form>
+                </div>
+                <img src="./moon_flag.png" alt="picture">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
